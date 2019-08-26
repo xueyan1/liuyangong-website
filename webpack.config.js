@@ -89,7 +89,12 @@ module.exports = env => {
       }, {
         test: /\.css$/,
         use: ['vue-style-loader', 'css-loader']
-      }]
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader?limit=8192&name=assets/[hash:8].[name].[ext]'
+      }
+    ]
     },
     resolve: {
       extensions: [

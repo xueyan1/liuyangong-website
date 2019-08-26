@@ -6,8 +6,8 @@
             <p>敬请期待</p>
             <Time :endTime="endTime"
                   :class="$style.time" />
+             <img :class="$style.miniimg" src="../../assets/img/minicode.jpg" alt="小程序码">
         </section>
-
     </Panel>
 </template>
 
@@ -83,6 +83,13 @@ body {
     top: 1rem !important;
     right: 1rem;
     color: #ddd !important;
+  }
+  .miniimg{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 100px;
+    height: 100px;
   }
 }
 </style>
