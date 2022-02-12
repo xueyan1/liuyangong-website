@@ -56,7 +56,7 @@
     "webpack.config.js"
   ],
   "dependencies": {
-    "ajv": "6.6.1",
+    "ajv": "6.12.3",
     "clean-webpack-plugin": "0.1.17",
     "css-hot-loader": "1.3.4",
     "eslint-config-mysticatea": "13.0.2",
